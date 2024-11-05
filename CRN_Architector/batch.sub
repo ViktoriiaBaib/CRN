@@ -1,0 +1,13 @@
+#!/bin/bash -l
+#SBATCH --qos=lr_normal
+#SBATCH -p lr6
+#SBATCH --time=72:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=40
+#SBATCH --account=pc_automat
+#SBATCH -C lr6_m192
+#SBATCH --mem=185G
+
+conda activate arch
+cd $SCRATCH/Architector
+python build_structures_arch.py -n 35 -b 1

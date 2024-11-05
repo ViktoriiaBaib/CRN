@@ -1,0 +1,219 @@
+[{"CN": 5, "ligands": {"moe_ion_mono": 3, "hno3_bi": 1}, "inter_idx": 0},
+
+{"CN": 6, "ligands": {"no3_ion_bi": 1, "moe_ion_bi": 2}, "inter_idx": 1},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "moe_0_c_mono": 2}, "inter_idx": 4},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "moe_0_mono": 1, "moe_0_c_mono": 1}, "inter_idx": 5},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 2, "moe_ion_mono": 1}, "inter_idx": 6},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 2, "hno3_mono": 1, "moe_0_c_mono": 1}, "inter_idx": 9},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 2, "hno3_mono": 1, "moe_0_mono": 1}, "inter_idx": 11},
+
+{"CN": 6, "ligands": {"moe_ion_mono": 2, "no3_ion_bi": 1, "hno3_bi": 1}, "inter_idx": 19},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "hno3_mono": 2, "moe_ion_mono": 2}, "inter_idx": 26},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1}, "inter_idx": 27},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "hno3_bi": 1}, "inter_idx": 28},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_ion_bi": 2}, "inter_idx": 32},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 1, "moe_ion_mono": 1, "moe_ion_bi": 1}, "inter_idx": 47},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 2, "moe_0_bi": 1}, "inter_idx": 48},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "moe_ion_mono": 1, "moe_ion_bi": 1}, "inter_idx": 51},
+
+{"CN": 5, "ligands": {"hno3_mono": 1, "moe_ion_mono": 2, "moe_ion_bi": 1}, "inter_idx": 55},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1}, "inter_idx": 69},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1}, "inter_idx": 70},
+
+{"CN": 5, "ligands": {"hno3_mono": 1, "moe_ion_mono": 2, "no3_ion_bi": 1}, "inter_idx": 72},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "moe_ion_mono": 1, "moe_ion_bi": 1}, "inter_idx": 74},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 2, "hno3_bi": 1}, "inter_idx": 75},
+
+{"CN": 6, "ligands": {"hno3_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 81},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 82},
+
+{"CN": 6, "ligands": {"hno3_mono": 1, "moe_ion_mono": 3, "hno3_bi": 1}, "inter_idx": 89},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_c_mono": 2, "no3_ion_bi": 1}, "inter_idx": 92},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 2, "no3_ion_bi": 1}, "inter_idx": 93},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 1, "moe_0_c_mono": 1, "no3_ion_bi": 1}, "inter_idx": 94},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "moe_0_c_mono": 1, "hno3_bi": 1}, "inter_idx": 97},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "hno3_mono": 1, "moe_0_c_mono": 1, "moe_ion_bi": 1}, "inter_idx": 98},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "moe_ion_mono": 1, "moe_0_mono": 1, "no3_ion_bi": 1}, "inter_idx": 99},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "moe_ion_mono": 1, "moe_0_c_mono": 1, "no3_ion_bi": 1}, "inter_idx": 100},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 1, "hno3_mono": 1, "moe_ion_bi": 1}, "inter_idx": 101},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 2, "moe_ion_mono": 1, "moe_ion_bi": 1}, "inter_idx": 111},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 2, "moe_ion_mono": 1, "hno3_mono": 1}, "inter_idx": 113},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "hno3_mono": 1, "moe_ion_mono": 1, "moe_0_c_mono": 2}, "inter_idx": 114},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 1, "moe_ion_mono": 1, "hno3_mono": 1, "moe_0_c_mono": 1}, "inter_idx": 115},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 2, "moe_ion_mono": 2, "moe_0_c_mono": 1}, "inter_idx": 118},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 2, "moe_ion_mono": 2, "moe_0_mono": 1}, "inter_idx": 119},
+
+{"CN": 6, "ligands": {"hno3_mono": 3, "moe_ion_mono": 3}, "inter_idx": 122},
+
+{"CN": 5, "ligands": {"hno3_mono": 2, "moe_ion_mono": 3}, "inter_idx": 128},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 1, "hno3_bi": 1, "moe_ion_bi": 1}, "inter_idx": 141},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 142},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1, "moe_0_bi": 1}, "inter_idx": 143},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "moe_ion_bi": 2}, "inter_idx": 149},
+
+{"CN": 6, "ligands": {"no3_ion_bi": 2, "moe_ion_bi": 1}, "inter_idx": 207},
+
+{"CN": 6, "ligands": {"moe_0_c_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 215},
+
+{"CN": 6, "ligands": {"moe_ion_mono": 2, "no3_ion_bi": 1, "moe_0_bi": 1}, "inter_idx": 216},
+
+{"CN": 6, "ligands": {"moe_ion_mono": 2, "hno3_bi": 1, "moe_ion_bi": 1}, "inter_idx": 217},
+
+{"CN": 6, "ligands": {"hno3_mono": 1, "moe_ion_mono": 1, "moe_ion_bi": 2}, "inter_idx": 218},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 3, "moe_0_c_mono": 2}, "inter_idx": 220},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 3, "moe_0_mono": 2}, "inter_idx": 221},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 3, "moe_0_mono": 1, "moe_0_c_mono": 1}, "inter_idx": 222},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "hno3_mono": 1, "moe_0_mono": 1}, "inter_idx": 226},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "moe_0_c_mono": 1, "hno3_mono": 1}, "inter_idx": 227},
+
+{"CN": 5, "ligands": {"moe_0_mono": 1, "moe_ion_mono": 2, "no3_ion_bi": 1}, "inter_idx": 231},
+
+{"CN": 5, "ligands": {"moe_0_c_mono": 1, "moe_ion_mono": 2, "no3_ion_bi": 1}, "inter_idx": 232},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 3, "moe_0_c_mono": 3}, "inter_idx": 236},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 3, "moe_0_mono": 3}, "inter_idx": 237},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 3, "moe_0_mono": 2, "moe_0_c_mono": 1}, "inter_idx": 238},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 3, "moe_0_c_mono": 2, "moe_0_mono": 1}, "inter_idx": 239},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "moe_ion_mono": 2, "hno3_bi": 1}, "inter_idx": 264},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_bi": 1, "moe_ion_bi": 1}, "inter_idx": 270},
+
+{"CN": 6, "ligands": {"moe_0_c_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 2}, "inter_idx": 305},
+
+{"CN": 6, "ligands": {"moe_0_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 2}, "inter_idx": 306},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "moe_ion_mono": 2, "hno3_bi": 1}, "inter_idx": 329},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 2, "moe_0_c_mono": 1, "hno3_bi": 1}, "inter_idx": 330},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 2, "hno3_mono": 1, "moe_0_bi": 1}, "inter_idx": 331},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 1, "moe_ion_mono": 1, "hno3_mono": 1, "moe_ion_bi": 1}, "inter_idx": 332},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "hno3_mono": 1, "moe_ion_mono": 1, "moe_0_bi": 1}, "inter_idx": 333},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 3, "moe_0_c_mono": 1, "moe_0_bi": 1}, "inter_idx": 336},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 3, "moe_0_mono": 1, "moe_0_bi": 1}, "inter_idx": 337},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 1, "moe_ion_bi": 2}, "inter_idx": 356},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "moe_ion_bi": 2}, "inter_idx": 357},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 1, "moe_0_bi": 1, "moe_ion_bi": 1}, "inter_idx": 358},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 1, "moe_ion_bi": 1}, "inter_idx": 363},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_0_c_mono": 1, "moe_ion_bi": 1}, "inter_idx": 364},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "moe_0_bi": 1}, "inter_idx": 365},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_ion_mono": 1, "moe_0_mono": 1, "hno3_bi": 1}, "inter_idx": 378},
+
+{"CN": 6, "ligands": {"hno3_mono": 1, "moe_ion_mono": 2, "moe_0_mono": 1, "no3_ion_bi": 1}, "inter_idx": 381},
+
+{"CN": 6, "ligands": {"hno3_mono": 1, "moe_ion_mono": 2, "moe_0_c_mono": 1, "no3_ion_bi": 1}, "inter_idx": 382},
+
+{"CN": 6, "ligands": {"hno3_mono": 2, "moe_ion_mono": 2, "no3_ion_bi": 1}, "inter_idx": 383},
+
+{"CN": 6, "ligands": {"hno3_mono": 2, "moe_ion_mono": 2, "moe_ion_bi": 1}, "inter_idx": 387},
+
+{"CN": 6, "ligands": {"hno3_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 2}, "inter_idx": 397},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1, "hno3_bi": 1}, "inter_idx": 398},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "no3_ion_bi": 2}, "inter_idx": 455},
+
+{"CN": 6, "ligands": {"moe_ion_bi": 3}, "inter_idx": 463},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 1, "no3_ion_bi": 1}, "inter_idx": 473},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "moe_0_c_mono": 1, "no3_ion_bi": 1}, "inter_idx": 474},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 2, "hno3_mono": 1, "moe_ion_bi": 1}, "inter_idx": 476},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "hno3_mono": 1, "moe_ion_mono": 1, "moe_ion_bi": 1}, "inter_idx": 499},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_c_mono": 1, "moe_ion_mono": 1, "moe_0_bi": 1}, "inter_idx": 578},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 1, "moe_ion_mono": 1, "moe_0_bi": 1}, "inter_idx": 581},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_c_mono": 1, "moe_0_mono": 1, "moe_ion_bi": 1}, "inter_idx": 582},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_mono": 2, "moe_ion_bi": 1}, "inter_idx": 583},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "moe_0_c_mono": 2, "moe_ion_bi": 1}, "inter_idx": 584},
+
+{"CN": 5, "ligands": {"moe_ion_mono": 1, "no3_ion_bi": 2}, "inter_idx": 610},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "no3_ion_bi": 2}, "inter_idx": 620},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 1, "no3_ion_bi": 2}, "inter_idx": 621},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "hno3_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 623},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "hno3_bi": 1, "moe_ion_bi": 1}, "inter_idx": 626},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 2, "no3_ion_bi": 1, "moe_0_bi": 1}, "inter_idx": 630},
+
+{"CN": 5, "ligands": {"moe_ion_mono": 1, "moe_ion_bi": 2}, "inter_idx": 690},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 3, "moe_0_bi": 1}, "inter_idx": 714},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 2, "moe_ion_mono": 1, "no3_ion_bi": 1}, "inter_idx": 757},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_mono": 1, "moe_ion_mono": 1, "moe_0_c_mono": 1, "no3_ion_bi": 1}, "inter_idx": 758},
+
+{"CN": 6, "ligands": {"no3_ion_mono": 1, "moe_0_c_mono": 2, "moe_ion_mono": 1, "no3_ion_bi": 1}, "inter_idx": 759},
+
+{"CN": 5, "ligands": {"moe_ion_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 766},
+
+{"CN": 6, "ligands": {"no3_ion_bi": 3}, "inter_idx": 773},
+
+{"CN": 5, "ligands": {"no3_ion_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 782},
+
+{"CN": 6, "ligands": {"moe_0_mono": 1, "moe_ion_mono": 1, "no3_ion_bi": 1, "moe_ion_bi": 1}, "inter_idx": 807}]
