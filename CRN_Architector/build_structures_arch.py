@@ -7,14 +7,14 @@ from random import sample
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-n', '--batchnum', type=int, default=0)
-parser.add_argument('-b', '--batchsize', type=int, default=1)
+parser.add_argument('-n', '--batchnum', type=int)
+parser.add_argument('-b', '--batchsize', type=int)
 args = parser.parse_args()
 
 batchnum = args.batchnum
 batchsize = args.batchsize
 
-#opt = Sella
+opt = Sella
 
 no3_ion_bi = {'smiles':'[N+](=O)([O-])[O-]','coordList':[1,2],'ligType':'bi_cis'}
 no3_ion_mono = {'smiles':'[N+](=O)([O-])[O-]','coordList':[1]}
@@ -25,7 +25,6 @@ moe_ion_mono = {'smiles':'COCC[O-]','coordList':[4]}
 moe_0_bi = {'smiles':'COCCO','coordList':[1,4],'ligType':'bi_cis'}
 moe_0_mono = {'smiles':'COCCO','coordList':[4]}
 moe_0_c_mono = {'smiles':'COCCO','coordList':[1]}
-eg_0_bi = {'smiles': 'C(CO)O', 'coordList':[2,3],'ligType':'bi_cis'}
 
 ligand_library = {
 "no3_ion_bi": no3_ion_bi,
@@ -36,24 +35,24 @@ ligand_library = {
 "moe_ion_mono": moe_ion_mono,
 "moe_0_bi": moe_0_bi,
 "moe_0_mono": moe_0_mono,
-"moe_0_c_mono": moe_0_c_mono,
-"eg_0_bi": eg_0_bi
+"moe_0_c_mono": moe_0_c_mono
 }
 
-directory = "/pscratch/sd/v/vbaib/Architector/"
-"""
+directory = "/global/scratch/users/vbaibakova/Architector/"
 with open(directory+"filtered_log.json","r") as f:
     recs = json.load(f)
-"""
-outfile = directory + f"stat200{batchnum}.txt"
+
+outfile = directory + f"stat{batchnum}.txt"
 
 os.environ["MKL_NUM_THREADS"]="1"
 os.environ["NUMEXPR_NUM_THREADS"]="1"
 os.environ["OMP_NUM_THREADS"]="1"
 
-addrecs = [{"CN":8, "ligands": {"no3_ion_bi": 3, "eg_0_bi": 1}, "inter_idx":2000}]
-
-for rec in addrecs[batchnum*batchsize:(batchnum+1)*batchsize]:
+start = batchnum*batchsize
+end = (batchnum+1)*batchsize
+if end>len(recs):
+    end = len(recs)
+for rec in recs[batchnum*batchsize:(batchnum+1)*batchsize]:
     ligs = []
     for key in rec['ligands'].keys():
         ligs = ligs + [ligand_library[key]]*rec['ligands'][key]
@@ -62,34 +61,11 @@ for rec in addrecs[batchnum*batchsize:(batchnum+1)*batchsize]:
     'ligands': ligs,
     'parameters':{
     'ff_preopt':True,
-    'n_symmetries': 20,
-    'n_conformers': 10,
-    'maxsteps': 100}}
-    try:
-        t0 = time.time()
-        out = build_complex(complex_dict)
-        t1t0 = (time.time()-t0)//60
-    except:
-        print(f"Failed for graph {rec['inter_idx']}!")
-        continue
-    with open(outfile, 'w') as fout:
-        fout.write("LBFGS+TBLite\nGraph | Minutes | Structures \n -------------------------------\n")
-        fout.write(f" {rec['inter_idx']}  |  {t1t0}  |  {len(out)}\n\n\n              Name                     | Energy \n -------------------------------\n")
-        for key in out.keys():
-            print(key)
-            fout.write(f"ind200{batchnum}_graph{rec['inter_idx']}_cn{rec['CN']}_{key} | {out[key]['energy']}\n")
-            out[key]['ase_atoms'].write(directory+f"str_tblite/ethyleneglycol_cn{rec['CN']}_{key}.xyz")
-    del out, comlpex_dict
-    # Sella
-    complex_dict = {
-    'core':{'metal':'Bi','coreCN':rec['CN']},
-    'ligands': ligs,
-    'parameters':{
-    'ff_preopt':True,
     'xtb_solvent':'octanol',
     'n_symmetries': 20,
     'n_conformers': 10,
-    'ase_opt_method':Sella,
+    'max_steps': 25,
+    'ase_opt_method':opt,
     'ase_opt_kwargs':{'sella_internal_trics':True, 'order':0}}}
     try:
         t0 = time.time()
@@ -98,11 +74,10 @@ for rec in addrecs[batchnum*batchsize:(batchnum+1)*batchsize]:
     except:
         print(f"Failed for graph {rec['inter_idx']}!")
         continue
-    with open(outfile, 'a') as fout:
-        fout.write("\n\n\nSella+xTB\nGraph | Hours | Structures \n -------------------------------\n")
-        fout.write(f" {rec['inter_idx']}  |  {t1t0}  |  {len(out)}\n\n\n              Name                     | Energy \n -------------------------------\n")
-        for key in out.keys():
-            print(key)
-            fout.write(f"ind200{batchnum}_graph{rec['inter_idx']}_cn{rec['CN']}_{key} | {out[key]['energy']}\n")
-            out[key]['ase_atoms'].write(directory+f"str_sella/ethyleneglycol_cn{rec['CN']}_{key}.xyz")
-    del out, comlpex_dict
+    with open(outfile, 'w') as fout:
+        fout.write("Graph | Hours | Structures \n -------------------------------\n")
+        fout.write(f" {rec['inter_idx']}  |  {t1t0}  |  {len(out)} ")
+    for key in out.keys():
+        print(key)
+        out[key]['ase_atoms'].write(directory+f"str/graph{rec['inter_idx']}_cn{rec['CN']}_{key}.xyz")
+    del out
